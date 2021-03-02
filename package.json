@@ -9,6 +9,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxt/content": "^1.14.0",
     "@nuxtjs/apollo": "^4.0.1-rc.5",
     "core-js": "^3.8.3",
     "graphql": "^15.5.0",
@@ -16,5 +17,4 @@
     "uikit": "^3.6.17",
     "uikit-icons": "^0.5.0"
   }
-  
 }
