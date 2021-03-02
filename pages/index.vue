@@ -35,9 +35,8 @@
           Facebook
         </a>
         <a
-          href="https://nuxtjs.org/"
+          href="/blog"
           uk-icon="icon: pencil"
-          target="_blank"
           rel="noopener noreferrer"
           class="button--green"
         >

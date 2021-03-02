@@ -1,48 +1,73 @@
 <template>
   <div>
-
     <nav class="uk-navbar-container" uk-navbar>
-        <div class="uk-navbar-left">
+      <div class="uk-navbar-left">
+        <ul class="uk-navbar-nav">
+          <li>
+            <a href="#modal-full" uk-toggle
+              ><span uk-icon="icon: table"></span
+            ></a>
+          </li>
+          <li>
+            <a href="/">Strapi Blog </a>
+          </li>
+        </ul>
+      </div>
 
-          <ul class="uk-navbar-nav">
-              <li><a href="#modal-full" uk-toggle><span uk-icon="icon: table"></span></a></li>
-              <li>
-                <a href="/">Strapi Blog
-                </a>
-              </li>
-          </ul>
-
-        </div>
-
-        <div class="uk-navbar-right">
-          <ul class="uk-navbar-nav">
-              <!-- <li v-for="category in categories">
+      <div class="uk-navbar-right">
+        <ul class="uk-navbar-nav">
+          <!-- <li v-for="category in categories">
                 <router-link :to="{ name: 'categories-id', params: { id: category.id }}" tag="a">{{ category.name }}
                 </router-link>
               </li> -->
-          </ul>
-        </div>
+        </ul>
+      </div>
     </nav>
 
     <div id="modal-full" class="uk-modal-full" uk-modal>
-        <div class="uk-modal-dialog">
-            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
-            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3308&q=80 3308w');" uk-height-viewport></div>
-                <div class="uk-padding-large">
-                    <h1 style="font-family: Staatliches;">Blog</h1>
-                    <div class="uk-width-1-2@s">
-                        <ul class="uk-nav-primary uk-nav-parent-icon" uk-nav>
-                          <!-- <li v-for="category in categories">
+      <div class="uk-modal-dialog">
+        <button
+          class="uk-modal-close-full uk-close-large"
+          type="button"
+          uk-close
+        ></button>
+        <div
+          class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle"
+          uk-grid
+        >
+          <div
+            class="uk-background-cover"
+            style="
+              background-image: url('https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3308&q=80 3308w');
+            "
+            uk-height-viewport
+          ></div>
+          <div class="uk-padding-large">
+            <h1 style="font-family: Staatliches">Blog</h1>
+            <div class="uk-width-1-2@s">
+              <ul class="uk-nav-primary uk-nav-parent-icon" uk-nav>
+                <li>
+                  <a href="/" uk-icon="icon: home" rel="noopener noreferrer">
+                    Home
+                  </a>
+                  <a
+                    href="/blog"
+                    uk-icon="icon: pencil"
+                    rel="noopener noreferrer"
+                  >
+                    Posts
+                  </a>
+                </li>
+                <!-- <li v-for="category in categories">
                             <router-link class="uk-modal-close" :to="{ name: 'categories-id', params: { id: category.id }}" tag="a">{{ category.name }}
                             </router-link>
                           </li> -->
-                        </ul>
-                    </div>
-                    <p class="uk-text-light">built with nuxt & netlify</p>
-                </div>
+              </ul>
             </div>
+            <p class="uk-text-light">built with nuxt & netlify</p>
+          </div>
         </div>
+      </div>
     </div>
 
     <nuxt />
@@ -51,15 +76,8 @@
 
 <style>
 html {
-  font-family:
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
