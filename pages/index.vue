@@ -69,7 +69,7 @@ export default {
 }
 </script>
 
-<style>
+<style >
 .container {
   margin: 0 auto;
   min-height: 100vh;
