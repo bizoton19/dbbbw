@@ -6,7 +6,7 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "npm run generate"
+    "generate": "nuxt generate"
   },
   "dependencies": {
     "@nuxtjs/apollo": "^4.0.1-rc.5",
@@ -16,4 +16,5 @@
     "uikit": "^3.6.17",
     "uikit-icons": "^0.5.0"
   }
+  
 }
