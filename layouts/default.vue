@@ -55,7 +55,7 @@
                     uk-icon="icon: pencil"
                     rel="noopener noreferrer"
                   >
-                    Posts
+                    Blog
                   </a>
                 </li>
                 <!-- <li v-for="category in categories">
