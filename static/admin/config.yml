@@ -27,7 +27,7 @@ collections:
     file: "socials.json"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Url", name: "url", widget: "image" }
+      - { label: "Url", name: "url", widget: "string" }
       - { label: "Icon", name: "icon", widget: "string" }
   - name: "products"
     label: "Products & Services"
@@ -35,8 +35,8 @@ collections:
     format: "json"
     file: "products.json"
     fields:
-      - { label: "Title", name: "title", widget: "text" }
-      - { label: "Url", name: "url", widget: "image" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Url", name: "url", widget: "string" }
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Price", name: "price", widget: "number" }
       
