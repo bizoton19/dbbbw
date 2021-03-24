@@ -23,8 +23,7 @@ collections:
   - name: "socials"
     label: "Social Links"
     folder: "content/socialLinks"
-    format: "frontmatter"
-    create: true
+    format: "json"
     file: "socials.json"
     fields:
       - { label: "Title", name: "title", widget: "string" }
@@ -33,8 +32,7 @@ collections:
   - name: "products"
     label: "Products & Services"
     folder: "content/products"
-    format: "frontmatter"
-    create: true
+    format: "json"
     file: "products.json"
     fields:
       - { label: "Title", name: "title", widget: "text" }
