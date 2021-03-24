@@ -6,16 +6,35 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: 'blog'
-    label: 'Blog'
-    folder: 'content/blog'
-    format: 'frontmatter'
+  - name: "blog"
+    label: "Blog"
+    folder: "content/blog"
+    format: "frontmatter"
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
       preview: false
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "socials"
+    label: "Social Links"
+    folder: "content/socialLinks"
+    file: "socials.json"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Url", name: "url", widget: "image" }
+      - { label: "Icon", name: "icon", widget: "string" }
+  - name: "products"
+    label: "Products & Services"
+    folder: "content/products"
+    file: "products.json"
+    fields:
+      - { label: "Title", name: "title", widget: "text" }
+      - { label: "Url", name: "url", widget: "image" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Price", name: "price", widget: "number" }
+      

@@ -24,15 +24,14 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    'uikit/dist/css/uikit.min.css',
-    'uikit/dist/css/uikit.css',
+    
     
     '@assets/css/main.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    { src: '~/plugins/uikit.js', ssr: false },
+    
     
   ],
 
@@ -41,10 +40,20 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    
+    '@nuxtjs/fontawesome'
   ],
+
+  fontawesome:{
+    icons:{
+      solid:true,
+      brands: true
+    }
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/vuetify',
     '@nuxtjs/apollo',
     '@nuxt/content',
     
@@ -52,6 +61,18 @@ export default {
   
   content:{
      //Options
+  },
+  vuetify: {
+     theme: {
+       themes: {
+         light: {
+          primary: '#00897B',
+          secondary: '#b0bec5',
+          accent: '#8c9eff',
+          error: '#b71c1c',
+         }
+       }
+     }
   },
   
   apollo: {  

@@ -1,6 +1,7 @@
 <template>
   <div>
     <h2>{{ post.title }}</h2>
+    <p>written by:</p>
     <nuxt-content :document="post" />
   </div>
 </template>
@@ -23,7 +24,10 @@ export default {
 };
 </script>
 <style scoped>
-
+ .title {
+    font-weight: bold;
+    font-size: 58px;
+ }
   .nuxt-content h2 {
     font-weight: bold;
     font-size: 28px;

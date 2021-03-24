@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Facebook",
+        "url": "https://www.facebook.com/pg/dontbebrokebewoke/posts/?ref=page_internal",
+        "icon": "facebook"
+    },
+    {
+        "title": "Instagram",
+        "url": "https://www.instagram.com/dontbebrokebewoke/",
+        "icon": "instagram"
+    },
+    {
+        "title": "Book a Session",
+        "url": "https://calendly.com/dontbebrokebewoke/60min",
+        "icon": "calendar"
+    },
+    {
+        "title": "Podcast",
+        "url": "https://www.buzzsprout.com/1335988",
+        "icon": "podcast"
+    }
+]
