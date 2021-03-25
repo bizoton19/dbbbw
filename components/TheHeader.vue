@@ -1,10 +1,10 @@
 <template>
 <div>
-     <v-app-bar app color="primary" dense dark>
+     <v-app-bar app color="white" dense >
       
        <img
           lazy-src="~/assets/images/logo_main.jpeg"
-          height="50"
+          height="48"
           width="50"
           src="~/assets/images/logo_main.jpeg"
         />
@@ -52,7 +52,7 @@ li {
 
 a {
   text-decoration: none;
-  color: beige;
+  color: black;
   line-height: 40px;
   padding-left: 10px;
 }

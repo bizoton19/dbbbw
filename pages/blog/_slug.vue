@@ -2,7 +2,9 @@
   <div>
     <h2>{{ post.title }}</h2>
     <p>written by:</p>
+    <p>
     <nuxt-content :document="post" />
+    </p>
   </div>
 </template>
 

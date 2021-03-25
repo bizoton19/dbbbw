@@ -3,6 +3,8 @@
   <v-row dense justify='space-around'>,
     <v-col md="5">
   <Logo />
+  <h2>By Adrien Salomon</h2>
+  <p>Business | Investor | Finance geek</p>
     </v-col>
     <v-col md="3">
   <TheRightSideBar :posts="posts" :socials="socials"/>

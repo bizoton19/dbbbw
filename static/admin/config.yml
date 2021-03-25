@@ -23,7 +23,7 @@ collections:
   - name: "socials"
     label: "Social Links"
     folder: "content/socialLinks"
-    format: "json"
+    format: "frontmatter"
     file: "socials.json"
     fields:
       - { label: "Title", name: "title", widget: "string" }

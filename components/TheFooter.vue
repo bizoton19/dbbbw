@@ -1,6 +1,8 @@
 <template>
  <footer>
-   <v-footer app dark color="" height="72" inset> </v-footer>
+   <v-footer app light  height="72" inset>
+    <p> Copyright dontbebrokebewoke</p>
+      </v-footer>
  </footer>
 </template>
 
