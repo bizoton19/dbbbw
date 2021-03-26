@@ -7,8 +7,7 @@
         <v-spacer></v-spacer>
       </v-app-bar>
       <v-list>
-        <v-list-item-group v-model="selectedItem">
-         
+        <v-list-item-group>
           <v-list-item v-for="link in socials" :key="link.title">
             <v-list-item-content>
               <v-list-item-title>
@@ -25,7 +24,6 @@
     <v-card class="pa-2 mb-2" rounded elevation="2">
       <v-app-bar dark color="primary">
         <v-toolbar-title>Products/Services</v-toolbar-title>
-
         <v-spacer></v-spacer>
       </v-app-bar>
       <v-list>
