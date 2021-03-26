@@ -3,7 +3,7 @@
         "title": "Book a Session",
         "url": "https://calendly.com/dontbebrokebewoke/60min",
         "icon": {
-            "name": "blue",
+            "name": "calendar",
             "color": "orange"
           }
     },
