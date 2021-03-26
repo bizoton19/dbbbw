@@ -31,7 +31,7 @@
           </v-card-actions>
         </div>
         <v-avatar class="ma-3" size="125" tile>
-          <img src="~/assets/images/logo_main.jpeg" />
+          <img src="~/assets/images/logo_dark.jpg" />
         </v-avatar>
       </div>
     </v-card>
