@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid>
+  <v-container >
     <h2>Blog Posts</h2>
     <v-card class="pa-2 mb-2" rounded v-for="post of posts" :key="post.slug">
       <div class="d-flex flex-no-wrap justify-space-between">

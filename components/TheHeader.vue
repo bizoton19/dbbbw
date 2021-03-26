@@ -11,9 +11,9 @@
     
       
       <ul>
-        <li>
+       <!-- <li>
           <NuxtLink to="/blog"> Blog </NuxtLink>
-        </li>
+        </li>-->
         <li>|</li>
         <li>
           <NuxtLink to="/"> Home </NuxtLink>
