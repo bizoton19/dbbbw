@@ -1,29 +1,37 @@
 {
-    "title": "Social Links",
-    "sections": [
-        {
-            "title": "Facebook",
-            "url": "https://www.facebook.com/pg/dontbebrokebewoke/posts/?ref=page_internal",
-            "icon": {
-                "name": "facebook",
-                "color": "blue"
-            }
-        },
-        {
-            "title": "Instagram",
-            "url": "https://www.instagram.com/dontbebrokebewoke/",
-            "icon": {
-                "name": "instagram",
-                "color": "brown"
-            }
-        },
-        {
-            "title": "Podcast",
-            "url": "https://www.buzzsprout.com/1335988",
-            "icon": {
-                "name": "microphone",
-                "color": "black"
-            }
-        }
-    ]
+  "title": "Social Links",
+  "sections": [
+    {
+      "title": "Facebook",
+      "url": "https://www.facebook.com/pg/dontbebrokebewoke/posts/?ref=page_internal",
+      "icon": {
+        "name": "facebook",
+        "color": "blue"
+      }
+    },
+    {
+      "title": "Instagram",
+      "url": "https://www.instagram.com/dontbebrokebewoke/",
+      "icon": {
+        "name": "instagram",
+        "color": "brown"
+      }
+    },
+    {
+      "title": "Podcast",
+      "url": "https://www.buzzsprout.com/1335988",
+      "icon": {
+        "name": "microphone",
+        "color": "black"
+      }
+    },
+    {
+      "title": "Test",
+      "url": "https://www.google.com",
+      "icon": {
+        "name": "google",
+        "color": "secondary"
+      }
+    }
+  ]
 }
