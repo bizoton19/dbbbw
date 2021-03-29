@@ -24,14 +24,6 @@
         "name": "microphone",
         "color": "black"
       }
-    },
-    {
-      "title": "Test",
-      "url": "https://www.google.com",
-      "icon": {
-        "name": "google",
-        "color": "secondary"
-      }
     }
   ]
 }
