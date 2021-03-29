@@ -7,7 +7,7 @@
   <p>Business | Investor | Finance geek</p>
     </v-col>
     <v-col md="3">
-  <TheRightSideBar :products="products" :socials="socials"/>
+  <TheRightSideBar :products="products[0].sections" :socials="socials[0].sections"/>
   </v-col>
   </v-row>
 </v-container>
@@ -20,6 +20,7 @@ export default {
   async asyncData({ $content, params }) {
     const socials = await $content("socialLinks").fetch();
     const products = await $content("products").fetch();
+    console.log(socials)
     console.log(products)
     return { socials, products };
   },
