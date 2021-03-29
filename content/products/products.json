@@ -1,34 +1,37 @@
-[
-    {
-        "title": "Book a Session",
-        "url": "https://calendly.com/dontbebrokebewoke/60min",
-        "icon": {
-            "name": "calendar",
-            "color": "orange"
-          }
-    },
-    {
-        "title": "New Investor Guide",
-        "url": "https://gum.co/vRlcz",
-        "icon": {
-            "name": "finance",
-            "color": "green"
-          }
-    },
-    {
-        "title": "1$ Budget Excel",
-        "url": "https://gum.co/QHxzQ",
-        "icon": {
-            "name": "book",
-            "color": "brown"
-          }
-    },
-    {
-        "title": "Credit Repair Ebook",
-        "url": "https://gum.co/dztmt",
-        "icon": {
-            "name": "hammer-wrench",
-            "color": "black"
-          }
-    }
-]
+{
+    "title": "Products & Services",
+    "sections": [
+        {
+            "title": "Book a Session",
+            "url": "https://calendly.com/dontbebrokebewoke/60min",
+            "icon": {
+                "name": "calendar",
+                "color": "orange"
+            }
+        },
+        {
+            "title": "New Investor Guide",
+            "url": "https://gum.co/vRlcz",
+            "icon": {
+                "name": "finance",
+                "color": "green"
+            }
+        },
+        {
+            "title": "1$ Budget Excel",
+            "url": "https://gum.co/QHxzQ",
+            "icon": {
+                "name": "book",
+                "color": "brown"
+            }
+        },
+        {
+            "title": "Credit Repair Ebook",
+            "url": "https://gum.co/dztmt",
+            "icon": {
+                "name": "hammer-wrench",
+                "color": "black"
+            }
+        }
+    ]
+}

@@ -21,6 +21,8 @@ collections:
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
   - label: "Sections"
+    extension: "json"
+    format: "json"
     name: "sections"
     files:
       - name: "socials"
@@ -29,26 +31,34 @@ collections:
         widget: list
         fields:
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Url", name: "url", widget: "string" }
-          - label: "Icon"
-            name: "icon"
-            widget: "object"
-            fields: 
-              - { label: "Name", name: "name", widget: "string"}
-              - { label: "Color", name: "color", widget: "string"}
+          - label: "Sections" 
+            name: "sections"
+            widget: list
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Url", name: "url", widget: "string" }
+              - label: "Icon"
+                name: "icon"
+                widget: "object"
+                fields: 
+                  - { label: "Name", name: "name", widget: "string"}
+                  - { label: "Color", name: "color", widget: "string"}
       - name: "products"
         label: "Products & Services"
         file: "content/products/products.json"
-        widget: list 
         fields:  
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Url", name: "url", widget: "string" }
-          - label: "Icon"
-            name: "icon"
-            widget: "object"
-            fields: 
-              - { label: "Name", name: "name", widget: "string"}
-              - { label: "Color", name: "color", widget: "string"}
+          - label: "Sections" 
+            name: "sections"
+            widget: list
+            fields:
+              - { label: "Url", name: "url", widget: "string" }
+              - label: "Icon"
+                name: "icon"
+                widget: "object"
+                fields: 
+                  - { label: "Name", name: "name", widget: "string"}
+                  - { label: "Color", name: "color", widget: "string"}
              
             
               
