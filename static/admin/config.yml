@@ -20,23 +20,24 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-  - name: "socials"
-    label: "Social Links"
-    folder: "content/socialLinks"
-    widget: "list"
-    file: "socials.json"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Url", name: "url", widget: "string" }
-      - { label: "Icon", name: "icon", widget: "string" }
-  - name: "products"
-    label: "Products & Services"
-    folder: "content/products"
-    widget: list
-    file: products.json
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Url", name: "url", widget: "string" }
-      - { label: "Description", name: "description", widget: "text" }
-      - { label: "Price", name: "price", widget: "number" }
+  - label: "Sections"
+    name: "sections"
+    files:
+      - name: "socials"
+        label: "Social Links"
+        widget: "list"
+        file: "content/socialLinks/socials.json"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Url", name: "url", widget: "string" }
+          - { label: "Icon", name: "icon", widget: "string" }
+      - name: "products"
+        label: "Products & Services"
+        widget: list
+        file: "content/products/products.json"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Url", name: "url", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+          - { label: "Price", name: "price", widget: "number" }
       
