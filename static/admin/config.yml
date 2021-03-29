@@ -27,15 +27,23 @@ collections:
         label: "Social Links"
         file: "content/socialLinks/socials.json"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Url", name: "url", widget: "string" }
-          - { label: "Icon", name: "icon", widget: "string" }
+          - name: "SocialLinkList"
+            label: "Social Media Link List"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Url", name: "url", widget: "string" }
+              - { label: "Icon", name: "icon", widget: "string" }
       - name: "products"
         label: "Products & Services"
         file: "content/products/products.json"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Url", name: "url", widget: "string" }
-          - { label: "Description", name: "description", widget: "text" }
-          - { label: "Price", name: "price", widget: "number" }
+          - name: "ProductLists"
+            label: "Products & Servics List"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Url", name: "url", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Price", name: "price", widget: "number" }
       
