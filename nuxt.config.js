@@ -67,7 +67,7 @@ export default {
        themes: {
          light: {
           primary: '#00897B',
-          secondary: '#b0bec5',
+          secondary: '#1D3C78',
           accent: '#8c9eff',
           error: '#b71c1c',
          }
