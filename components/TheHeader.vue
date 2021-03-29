@@ -22,7 +22,9 @@
         </li>
       </ul>
       <v-spacer></v-spacer>
-      <v-btn large color="secondary"> Book a Session</v-btn>
+      <a href="https://calendly.com/dontbebrokebewoke/60min" target="_new">
+                  <v-btn small outlined color="secondary">Book a Session</v-btn>
+                </a> 
     </v-app-bar>
   </div>
 </template>
